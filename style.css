@@ -69,7 +69,6 @@ h2 {
     background-color: #161515;
     color: #FFFFFF;
     font-size: 32px;
-    font-family: 'League Spartan';
     padding: 22px 65px;
     cursor: pointer;
 }
@@ -90,26 +89,24 @@ h2 {
 }
 
 
-.section {
+.popular-models {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.section span {
+.popular-models span {
     font-size: 24px;
     color: #000;
     margin-bottom: 20px;
 }
 
-.section h2 {
+.popular-models h2 {
     color: #000;
     font-size: 72px;
     font-weight: 600;
-    font-family: 'League Spartan';
     margin-bottom: 84px;
-    font-weight: bold;
 }
 
 
@@ -120,14 +117,14 @@ h2 {
     margin-top: 67px;
 }
 
-.section .model {
+.popular-models .model {
     font-weight: 600;
     font-size: 32px;
     margin-top: 67px;
 }
 
 
-.section .description {
+.popular-models .description {
     text-align: center;
     width: 532px;
 }
@@ -141,8 +138,6 @@ h2 {
 }
 
 .wide-image {
-    /*background-image: url("img/watch-3.png");*/
-    /*background-repeat: no-repeat;*/
     height: 630px;
     width: 496px;
     padding: 65px 0;
